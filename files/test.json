@@ -1,0 +1,6 @@
+{
+  "test": { "yaml" : "/root/chef/json/example.yaml" },
+  "run_list": [
+        "test"
+  ]
+}
