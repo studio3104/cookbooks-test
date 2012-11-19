@@ -17,9 +17,9 @@ This cookbook is very simple OS setting test.
 * NIC setting check
 * ping 
 
-so very versy sinmple recipe!!!
-For more information,
-please read the  source file.
+so very versy sinmple recipe!!!  
+
+For more information, please read the  source file.  
 *(/cookbooks-test/recipes/default.rb)*
 
 USAGE:
