@@ -34,11 +34,12 @@ USAGE:
   cpu: 8
   memory: 16
   disk:
-   name: "/dev/vda3"
-   size: 20
-  disk_data:
-   name: "/dev/vdb1"
-   size: 80
+    - name: "/dev/vda3"
+      size: 20
+      mount: "/"
+    - name: "/dev/vdb1"
+      size: 80
+      mount: "/data"
   network:
    eth0: "192.168.0.11" 
    eth1: "172.16.0.11"
